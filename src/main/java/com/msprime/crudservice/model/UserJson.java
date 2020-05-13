@@ -2,18 +2,18 @@ package com.msprime.crudservice.model;
 
 public class UserJson {
 
-    private Long userId;
+    private Long id;
 
     private String firstName;
 
     private String lastName;
 
-    public Long getUserId() {
-        return userId;
+    public Long getId() {
+        return id;
     }
 
-    public void setUserId(Long userId) {
-        this.userId = userId;
+    public void setId(Long Id) {
+        this.id = id;
     }
 
     public String getFirstName() {
